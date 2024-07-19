@@ -15,7 +15,7 @@ const App = () => {
       <CssVarsProvider theme={darkTheme} defaultMode="dark">
         <Routes>
           <Route path="new-task/" element={<Home />}>
-            <Route index path="all-tasks" element={<AllTasks />} />
+            <Route path="all-tasks" element={<AllTasks />} />
             <Route path="important" element={<Important />} />
             <Route path="completed" element={<Completed />} />
             <Route path="do-it-now" element={<DoItNow />} />
