@@ -32,7 +32,7 @@ export default function InputTask() {
   return (
     <React.Fragment>
       <button
-        className="w-80 border-2  border-dashed  border-card-border p-4 rounded-xl  h-60  flex justify-center items-center gap-2
+        className="md:w-80 border-2  border-dashed  border-card-border p-4 rounded-xl  h-60  flex justify-center items-center gap-2
 text-close-icon "
         onClick={() => setOpen(true)}
       >

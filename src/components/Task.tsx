@@ -28,7 +28,7 @@ const Task = ({
   const deleteTask = useTaskStore((state) => state.deleteTask);
 
   return (
-    <div className="w-80 border-2  border-card-border p-4 rounded-xl bg-task-color h-60 flex flex-col justify-between">
+    <div className="md:w-80 border-2 w-52 border-card-border p-4 rounded-xl bg-task-color md:h-60 h-80 flex flex-col justify-between">
       <div className="flex justify-between items-center">
         <ViewTaskModal
           title={title}
@@ -49,7 +49,7 @@ const Task = ({
       </p>
       <div>
         <h3 className="text-lg mt-3 mb-3">{date}</h3>
-        <div className="flex justify-between">
+        <div className="flex justify-between flex-col md:flex-row">
           <button
             onClick={() => toggleTaskCompletion(id)}
             className={
@@ -60,7 +60,7 @@ const Task = ({
           >
             {isCompleted ? "Completed" : "Incomplete"}
           </button>
-          <div className="flex gap-4 text-2xl items-center text-icons-color">
+          <div className="flex gap-4  text-2xl items-center text-icons-color">
             <h3 className=" cursor-pointer mt-[5px] ">
               <EditModal
                 id={id}
