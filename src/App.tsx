@@ -1,6 +1,5 @@
 import {
-  // BrowserRouter as Router,
-  // Navigate,
+ 
   Route,
   Routes,
 } from "react-router-dom";
@@ -15,7 +14,7 @@ const App = () => {
       <CssVarsProvider theme={darkTheme} defaultMode="dark">
         <Routes>
           <Route path="new-task/" element={<Home />}>
-            {/* <Route index element={<Navigate to="/all-tasks" replace />} /> */}
+         
             <Route path="new-task/all-tasks" element={<AllTasks />} />
             <Route path="new-task/important" element={<Important />} />
             <Route path="new-task/completed" element={<Completed />} />
