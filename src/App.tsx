@@ -1,8 +1,4 @@
-import {
- 
-  Route,
-  Routes,
-} from "react-router-dom";
+import { Route, Routes } from "react-router-dom";
 import { AllTasks, Completed, DoItNow, Important } from "./pages";
 import Home from "./pages/Home";
 import { CssVarsProvider } from "@mui/joy/styles";
@@ -13,8 +9,7 @@ const App = () => {
     <>
       <CssVarsProvider theme={darkTheme} defaultMode="dark">
         <Routes>
-          <Route path="new-task/" element={<Home />}>
-         
+          <Route path="/" element={<Home />}>
             <Route index path="all-tasks" element={<AllTasks />} />
             <Route path="important" element={<Important />} />
             <Route path="completed" element={<Completed />} />
