@@ -15,10 +15,10 @@ const App = () => {
         <Routes>
           <Route path="new-task/" element={<Home />}>
          
-            <Route path="new-task/all-tasks" element={<AllTasks />} />
-            <Route path="new-task/important" element={<Important />} />
-            <Route path="new-task/completed" element={<Completed />} />
-            <Route path="new-task/do-it-now" element={<DoItNow />} />
+            <Route index path="all-tasks" element={<AllTasks />} />
+            <Route path="important" element={<Important />} />
+            <Route path="completed" element={<Completed />} />
+            <Route path="do-it-now" element={<DoItNow />} />
           </Route>
         </Routes>
       </CssVarsProvider>
