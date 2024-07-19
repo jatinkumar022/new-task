@@ -19,7 +19,7 @@ const Sidebar = () => {
       <div>
         <ul className=" flex flex-col text-close-icon  ">
           <NavLink
-            to={"all-tasks"}
+            to={"new-task/all-tasks"}
             className={({ isActive }) =>
               isActive
                 ? "flex justify-center items-center gap-4 text-xl py-4 duration-300 bg-task-color text-icons-color"
