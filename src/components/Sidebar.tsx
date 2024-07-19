@@ -19,7 +19,7 @@ const Sidebar = () => {
       <div>
         <ul className=" flex flex-col text-close-icon  ">
           <NavLink
-            to={"/all-tasks"}
+            to={"all-tasks"}
             className={({ isActive }) =>
               isActive
                 ? "flex justify-center items-center gap-4 text-xl py-4 duration-300 bg-task-color text-icons-color"
@@ -30,7 +30,7 @@ const Sidebar = () => {
             <h3 className=" md:block hidden">All Tasks</h3>
           </NavLink>
           <NavLink
-            to={"/important"}
+            to={"important"}
             className={({ isActive }) =>
               isActive
                 ? "flex justify-center items-center gap-4 text-xl py-4 duration-300 bg-task-color text-icons-color"
@@ -41,7 +41,7 @@ const Sidebar = () => {
             <h3 className=" md:block hidden ">Important!</h3>
           </NavLink>
           <NavLink
-            to={"/completed"}
+            to={"completed"}
             className={({ isActive }) =>
               isActive
                 ? "flex justify-center items-center gap-4 text-xl py-4 duration-300 bg-task-color text-icons-color"
@@ -52,7 +52,7 @@ const Sidebar = () => {
             <h3 className="md:block hidden ">Completed!</h3>
           </NavLink>
           <NavLink
-            to={"/do-it-now"}
+            to={"do-it-now"}
             className={({ isActive }) =>
               isActive
                 ? "flex justify-center items-center gap-4 text-xl py-4 duration-300 bg-task-color text-icons-color "
