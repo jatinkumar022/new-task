@@ -1,0 +1,9 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/" },
+    { "source": "/all-tasks", "destination": "/" },
+    { "source": "/important", "destination": "/" },
+    { "source": "/completed", "destination": "/" },
+    { "source": "/do-it-now", "destination": "/" }
+  ]
+}
