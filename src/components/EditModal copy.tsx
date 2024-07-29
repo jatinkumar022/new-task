@@ -50,7 +50,7 @@ export default function InputTask({
           <DialogTitle>Edit Task</DialogTitle>
 
           <form onSubmit={handleSubmit}>
-            <Stack spacing={3} className="w-[30rem]">
+            <Stack spacing={3} className="md:w-[30rem] w-[15rem]">
               <FormControl>
                 <FormLabel>Task Title:</FormLabel>
                 <Input
