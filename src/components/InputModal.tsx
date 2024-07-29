@@ -73,7 +73,7 @@ text-close-icon "
                   name=""
                 />
               </FormControl>
-              <Button type="submit">Add Task</Button>
+              <Button type="submit">Add Task..</Button>
             </Stack>
           </form>
         </ModalDialog>
